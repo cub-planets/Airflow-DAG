@@ -14,19 +14,15 @@ Airflow is best thought of as a spider in a web: it sits in the middle of your d
 The Airflow scheduler—Parses DAGs, checks their schedule interval, and (if the DAGs’ schedule has passed) starts scheduling the DAGs’ tasks for execution by passing them to the Airflow workers.  The Airflow workers—Pick up tasks that are scheduled for execution and execute them. As such, the workers are responsible for actually “doing the work.”  The Airflow webserver—Visualizes the DAGs parsed by the scheduler and provides the main interface for users to monitor DAG runs and their results.
 
 ## Principles
-Dynamic: Airflow pipelines are configuration as code (Python), allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically.
-Extensible: Easily define your own operators, executors and extend the library so that it fits the level of abstraction that suits your environment.
-Elegant: Airflow pipelines are lean and explicit. Parameterizing your scripts is built into the core of Airflow using the powerful Jinja templating engine.
-Scalable: Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers.
+- Dynamic: Airflow pipelines are configuration as code (Python), allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically.
+- Extensible: Easily define your own operators, executors and extend the library so that it fits the level of abstraction that suits your environment.
+- Elegant: Airflow pipelines are lean and explicit. Parameterizing your scripts is built into the core of Airflow using the powerful Jinja templating engine.
+- Scalable: Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers.
 ## Requirements
 - Apache Airflow is tested with:
-
-Main version (dev)	Stable version (2.3.0)
-Python	3.7, 3.8, 3.9, 3.10	3.7, 3.8, 3.9, 3.10
-Platform	AMD64/ARM64(*)	AMD64/ARM64(*)
-Kubernetes	1.20, 1.21, 1.22, 1.23, 1.24	1.20, 1.21, 1.22, 1.23, 1.24
-PostgreSQL	10, 11, 12, 13, 14	10, 11, 12, 13, 14
-MySQL	5.7, 8	5.7, 8
-SQLite	3.15.0+	3.15.0+
-MSSQL	2017(*), 2019 (*)	2017(*), 2019 (*)
+- Python		
+- PostgreSQL
+- MySQL	
+- SQLite	
+- MSSQL	
 
