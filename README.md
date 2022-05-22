@@ -19,7 +19,7 @@ The Airflow scheduler—Parses DAGs, checks their schedule interval, and (if the
 - Elegant: Airflow pipelines are lean and explicit. Parameterizing your scripts is built into the core of Airflow using the powerful Jinja templating engine.
 - Scalable: Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers.
 ## Requirements
-- Apache Airflow is tested with:
+Apache Airflow is tested with:
 - Python		
 - PostgreSQL
 - MySQL	
