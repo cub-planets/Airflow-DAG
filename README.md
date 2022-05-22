@@ -25,4 +25,10 @@ Apache Airflow is tested with:
 - MySQL	
 - SQLite	
 - MSSQL	
-
+* Experimental
+- Note: running Airflow on Windows 10 can be challenging even I tried it by WSL but it was not successful and I did it by Docker.
+## Getting started
+Below link is the the official Airflow website that is very useful for installing Airflow, getting started, or walking through a more complete tutorial.
+"https://airflow.apache.org/Visit" 
+Also there is a documentation in the below address:
+s.apache.org/airflow-docs
