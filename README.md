@@ -27,6 +27,9 @@ Apache Airflow is tested with:
 - MSSQL	
 * Experimental
 - Note: running Airflow on Windows 10 can be challenging even I tried it by WSL but it was not successful and I did it by Docker.
+
+
+
 ## Running Airflow in Docker containers:
 Docker containers are also popular to create isolated environments to run a reproducible set of Python packages and avoid dependency clashes. However, Docker containers create an isolated environment on the operating system level. For running Docker containers, we require a Docker Engine to be installed on your machine. Below link help you to run Airflow in docker.
  
@@ -41,3 +44,8 @@ s.apache.org/airflow-docs
 ## Running Airflow in Docker containers:
 Docker containers are  popular to create isolated environments to run a reproducible set of Python packages and avoid dependency clashes. However, Docker containers create an isolated environment on the operating system level. For running Docker containers, we require a Docker Engine to be installed on your machine. Below link help you to run Airflow in docker.
  https://airflow.apache.org/docs/apache-airflow/stable/start/docker.html
+ 
+ ## User Interface
+DAGs: Overview of all DAGs in your environment
+![image](https://user-images.githubusercontent.com/93762108/171958386-5b731384-ef32-4539-8e58-9e9b1e8de865.png)
+
